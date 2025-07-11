@@ -1,0 +1,169 @@
+---
+title: "From Theory to Practice: Strengthening Research Integrity with Preregistration and Registered Reports"
+format:
+  revealjs:
+    theme: solarized
+    center: true
+    slide-number: true
+editor: visual
+toc: false
+---
+
+# Can we trust the literature?
+
+There are 2 options:
+
+1. We study effects with >90% power and >90% probability of being true.
+2. There is **massive publication bias**.
+
+![](images/image-4.png){width=80%}  
+[Source](https://x.com/cremieuxrecueil/status/1772765486935056893)
+
+---
+
+### The significance filter, the winner's curse, and shrinkage
+
+1.1 million z-values from medical research (1976–2019)
+
+::: columns
+::: column
+![](images/image-5.png){width=100%}
+:::
+::: column
+![](images/image.png){width=100%}
+:::
+:::
+
+![](images/image-1.png){width=70%}  
+[Stan. (2020)](https://doi.org/10.1111/stan.12241)
+
+---
+
+### Psychological science
+
+> **Q:** What percentage of published findings in psychology are statistically significant?  
+> **A:** 96%
+
+![](images/image-3.png){width=70%}  
+[Source](https://doi.org/10.1177/251524592110074)
+
+---
+
+# Threats to Scientific Replicability
+
+### 🧪 P-hacking
+- Trying multiple analyses to get p < .05
+- Inflates Type I error
+
+### 💡 HARKing
+- Hypothesising After Results are Known
+- Misleads about test nature
+
+### 📦 Publication Bias
+- Journals prefer positive results
+- Nulls go to the file drawer
+
+---
+
+### More threats
+
+### 📏 Low Statistical Power
+- Small samples → false negatives & inflated effects
+
+### 🔧 Flexible Pipelines
+- Many ways to analyse data → bias if not preplanned
+
+### 🧠 Lack of Preregistration
+- Can’t distinguish exploratory vs. confirmatory
+
+---
+
+### More threats (cont.)
+
+### 🧾 Inadequate Reporting
+- Missing methods, software versions, etc.
+
+### 📊 Selective Outcome Reporting
+- Choosing time points or measures post hoc
+
+### 🔄 Data/Code not Shared
+- Blocks replication & error-checking
+
+### 🌐 Cultural Incentives
+- Publish-or-perish culture
+- Replications & nulls undervalued
+
+---
+
+# Preregistration
+
+### Key Benefits
+
+| Effect | Description |
+|--------|-------------|
+| **Transparency** | Public hypotheses & plans |
+| **Less Bias** | Encourages reporting nulls |
+| **Clearer Claims** | Exploratory ≠ Confirmatory |
+| **Better Quality** | Plans include power, exclusion, etc. |
+| **Credibility** | Deviations are explicit |
+| **Easier Review** | Reviewers know the plan |
+| **Better Workflow** | Forces early planning |
+
+Sources: [1–13](https://doi.org/10.24602/sjpr.62.3_221) and citations via Consensus.
+
+---
+
+### Limitations & Considerations
+
+- Not a cure-all; vague preregistrations still allow bias [12]
+- Concerns: bureaucracy, misuse, restriction of exploration [4,7,10]
+- Not for all types of research, but broadly beneficial [3,6,12]
+
+---
+
+# Registered Reports
+
+### The difference?
+
+- Peer review **before** data collection
+- Accepted in principle → guaranteed publication
+- Peer-reviewed methods → stronger designs
+
+![](images/image-2.png){width=80%}  
+[RR vs Standard](https://doi.org/10.1177/2515245921100746)
+
+---
+
+![](images/image-6.png){width=80%}  
+[Registered Reports 2.0 – PCI RR](https://www.fxstreet.com/analysis/eur-chf-has-stopped-going-down-at-month-end-202503270738)
+
+---
+
+# Summary
+
+- Many threats to replicability are avoidable
+- Preregistration increases clarity, rigour, and credibility
+- Registered Reports align incentives: **better science + less stress**
+- Tools and culture are changing. Let's be part of the solution!
+
+---
+
+# Questions? Discussion
+
+Feel free to ask, critique, or share your experiences.
+
+---
+
+# Extra (if time allows)
+
+### Hands-on: Draft a preregistration
+- Using AsPredicted.org, OSF, or PCIRR templates
+- Discuss good vs. vague examples
+
+---
+
+# Thank you!
+
+- Prepared by: Juan David Leongómez  
+- CODEC Lab – Universidad El Bosque  
+- [Your contact info, if desired]
