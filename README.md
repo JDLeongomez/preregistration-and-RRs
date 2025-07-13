@@ -1,47 +1,22 @@
 # From Theory to Practice: Strengthening Research Integrity with Preregistration and Registered Reports
 
-Welcome to the repository for the **Open Science Workshop** focused on preregistration and registered reports. This workshop introduces key tools and practices that foster transparency, rigour, and credibility in scientific research.
+This repository contains the materials for the **Open Science Workshop** held at the ISHE Summer Institute 2025 in Valparaíso, Chile. The workshop introduces practical tools for improving transparency, credibility, and reproducibility in scientific research — with a focus on **preregistration** and **registered reports**.
 
-## 🌐 Overview
+## 📋 Overview
 
-This workshop explores:
-- The challenges facing scientific replicability
-- The role of preregistration in clarifying hypotheses and analysis plans
-- How registered reports transform peer review into a tool for improving study design
-- Practical steps and tools for implementing these practices
+The workshop covers:
 
-> **Why it matters:**  
-> Many scientific findings fail to replicate due to questionable research practices and structural biases in publication. Preregistration and registered reports offer scalable solutions to improve research quality and reduce stress for researchers.
+- Common threats to scientific replicability
+- What preregistration is (and isn’t), and why it matters
+- How registered reports help realign incentives and improve study design
+- Practical guidance on using OSF, AsPredicted, and PCI Registered Reports (PCI RR)
 
----
+## 🛠 Tools and Platforms
 
-## 📁 Contents
+- [OSF Registries](https://osf.io/registries/)
+- [PCI Registered Reports (PCI RR)](https://rr.peercommunityin.org)
 
-| File/Folder              | Description |
-|--------------------------|-------------|
-| `presentation.qmd`       | Source file for the interactive slides (Quarto + reveal.js) |
-| `Presentation.html`      | Rendered HTML slides to view in your browser |
-| `images/`                | Figures and visuals used in the presentation |
-| `README.md`              | This file |
+## 🔗 Access the Slides
 
----
-
-## 🛠 Tools Covered
-
-- **Preregistration Platforms**: OSF, AsPredicted, PCIRR
-- **Registered Reports**: Submission workflow, participating journals, PCI RR
-- **Open Science Frameworks**: Transparency, reproducibility, and workflow planning
-
----
-
-## 🧑‍🏫 Who Is This For?
-
-This workshop is designed for:
-- Researchers at all career stages
-- Journal editors and reviewers
-- Graduate students and methodologists
-- Anyone interested in strengthening scientific practices
-
-No prior experience with preregistration or registered reports is required.
-
----
+You can view the presentation here:  
+➡️ [https://jdleongomez.github.io/preregistration-and-RRs/](https://jdleongomez.github.io/preregistration-and-RRs/)
