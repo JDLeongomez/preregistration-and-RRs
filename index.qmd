@@ -1,0 +1,855 @@
+---
+project:
+  type: website
+output-dir: docs
+format:
+  revealjs:
+    logo: images/logos.png
+    footer: "Juan David Leongómez <span style='font-size: 70%;'>PhD, MSc</span>"
+    theme: simple
+    center: true
+    slide-number: true
+    transition: fade
+    background-transition: fade
+editor: visual
+toc: false
+---
+
+## From Theory to Practice: <span style='font-size: 70%;'>Strengthening Research Integrity with *Preregistration* and *Registered Reports*</span>
+
+<br>**Juan David Leongómez**  <span style='font-size: 70%;'>PhD, MSc</span><br>
+<span style='font-size: 70%;'>[jleongomez@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co)</span><br>
+
+<img src="images/logos.png" height="100">
+
+<span style='font-size: 70%;'>ISHE Summer Institute 2025 · Valparaiso, Chile</span>
+
+------------------------------------------------------------------------
+
+## Part 1: The challenges to scientific credibility
+
+------------------------------------------------------------------------
+
+### {auto-animate=true}
+
+**Q:** What percentage of published findings in psychology are statistically significant?\
+
+---
+
+### {auto-animate=true}
+
+**Q:** What percentage of published findings in psychology are statistically significant?\
+**A:** <span style='font-size: 150%; color:#f7766d;'>96%</span>
+
+---
+
+### {auto-animate=true}
+
+**Q:** What percentage of published findings in psychology are statistically significant?\
+**A:** <span style='font-size: 150%; color:#f7766d;'>96%</span>
+
+![](images/p05.png)
+
+---
+
+### {auto-animate=true}
+
+**Q:** What percentage of published findings in psychology are statistically significant?\
+**A:** <span style='font-size: 150%; color:#f7766d;'>96%</span>
+
+![](images/power.gif?v=1)
+
+---
+
+### {auto-animate=true}
+
+<https://shiny.jdl-svr.lat/PowerSimulate_ind_t_EN/>
+
+<iframe 
+  src="https://shiny.jdl-svr.lat/PowerSimulate_ind_t_EN/" 
+  width="100%" 
+  height="500px" 
+  style="border: 3px solid #ccc; border-radius: 8px;">
+</iframe>
+
+------------------------------------------------------------------------
+
+### 1.1 Can we trust the literature? {auto-animate=true}
+
+There are 2 options:
+
+1.  We study effects with \>90% power and \>90% probability of being true.
+
+---
+
+### 1.1 Can we trust the literature? {auto-animate=true}
+
+There are 2 options:
+
+1.  We study effects with \>90% power and \>90% probability of being true.
+2.  There is **massive publication bias**.
+
+---
+
+### 1.1 Can we trust the literature? {auto-animate=true}
+
+2.  There is **massive publication bias** (in multiple disciplines).
+
+![](images/image-4.png){width="60%"}\
+<span style='font-size: 50%;'>[Source](https://x.com/cremieuxrecueil/status/1772765486935056893)</span>
+
+------------------------------------------------------------------------
+
+### 1.2 The significance filter {auto-animate=true}
+
+![](images/image-5.png){top=200 left=0 width="80%" }
+
+---
+
+### 1.2 The significance filter {auto-animate=true}
+
+::: columns
+
+::: {.column width="50%"}
+1.1 million z-values medical research (1976–2019)
+![](images/image.png){top=200 left=0 width="400"} 
+<br>
+<span style='font-size: 50%;'>[van Zwet & Cator (2021)](https://doi.org/10.1111/stan.12241)</span>
+:::
+
+::: {.column width="50%" .fragment .fade-in}
+<br>Also PLOS ONE
+![](images/image-1.png){top=200 right=50 width="400"}
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+---
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+1. 🧪 **P-hacking** 
+
+::: {.fragment .fade-in}
+   -   Trying multiple analyses to get p \< .05 
+   -   Inflates Type I error
+:::
+
+::: {.fragment .fade-in}
+2. 💡 **HARKing**
+:::
+
+::: {.fragment .fade-in}
+   -   Hypothesising After Results are Known
+   -   Misleads about test nature
+:::
+
+---
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+2. 💡 **HARKing**
+
+![](images/HARKing.jpeg)
+
+---
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+3. 📦 **Publication Bias**
+
+::: {.fragment .fade-in}
+   -   Journals prefer positive results
+   -   Nulls go to the file drawer
+:::
+
+::: {.fragment .fade-in}
+4. 📏 **Low Statistical Power**
+:::
+
+::: {.fragment .fade-in}
+   -   Small samples → false negatives & inflated effects
+:::
+
+---
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+5. 🔧 **Flexible Pipelines**
+
+::: {.fragment .fade-in}
+   -   Many ways to analyse data → bias if not preplanned
+:::
+
+::: {.fragment .fade-in}
+6. 🧠 **Lack of Preregistration**
+:::
+
+::: {.fragment .fade-in}
+   -   Can’t distinguish exploratory vs. confirmatory
+:::
+
+---
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+7. 🧾 **Inadequate Reporting**
+
+
+::: {.fragment .fade-in}
+   -   Missing methods, software versions, etc.
+:::
+
+::: {.fragment .fade-in}
+8. 📊 **Selective Outcome Reporting**
+:::
+
+::: {.fragment .fade-in}
+   -   Choosing time points or measures post hoc
+:::
+
+---
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+9. 🔄 **Data/Code not Shared**
+
+::: {.fragment .fade-in}
+   -   Blocks replication & error-checking
+:::
+
+::: {.fragment .fade-in}
+10. 🌐 **Cultural Incentives**
+:::
+
+::: {.fragment .fade-in}
+   -   Publish-or-perish culture
+   -   Replications & nulls undervalued
+:::
+
+---
+
+### 1.3 Threats to Scientific Replicability  {auto-animate=true}
+
+The **four horsemen of the reproducibility apocalypse**
+![](images/4horsemen.jpg)
+
+------------------------------------------------------------------------
+
+## Part 2: Preregistration
+
+------------------------------------------------------------------------
+
+### 2.1 What is preregistration? {auto-animate=true}
+
+**Pre-registration** is the act of specifying your research plan before conducting the
+study
+
+::: {.fragment .fade-in}
+![](images/cos.webp)
+:::
+
+---
+
+### 2.1 What is preregistration? {auto-animate=true}
+
+<https://www.cos.io/initiatives/prereg>
+
+<iframe 
+  src="https://www.cos.io/initiatives/prereg" 
+  width="100%" 
+  height="400px" 
+  style="border: 3px solid #ccc; border-radius: 8px;">
+</iframe>
+
+---
+
+### 2.1 What is preregistration? {auto-animate=true}
+
+**What is preregistration?**
+
+::: {.fragment .fade-in}
+- Define your research question and hypotheses **before** collecting data
+:::
+
+::: {.fragment .fade-in}
+- Specify your analysis plan and study design in advance
+:::
+
+::: {.fragment .fade-in}
+- Clearly link your hypotheses to your planned methods and outcomes
+:::
+
+---
+
+### 2.1 What is preregistration? {auto-animate=true}
+
+**Why preregister?**
+
+::: {.fragment .fade-in}
+- Enhances **credibility** by making your intentions transparent
+:::
+
+::: {.fragment .fade-in}
+- Helps you plan better and avoid analytical drift
+:::
+
+::: {.fragment .fade-in}
+- Keeps all your design and analysis decisions in one place — even before data collection!
+:::
+
+---
+
+### 2.1 What is preregistration? {auto-animate=true}
+
+**Can I still explore my data?**
+
+::: {.fragment .fade-in}
+Absolutely! Preregistration doesn’t ban exploration. It just encourages **clarity** between confirmatory and exploratory analyses
+:::
+
+::: {.fragment .fade-in}
+- You can deviate from your plan. Just be upfront and explain why
+:::
+
+::: {.fragment .fade-in}
+- The goal isn’t rigidity, but **transparency**
+:::
+
+------------------------------------------------------------------------
+
+### 2.2 Key Benefits of preregistration {auto-animate=true}
+
+<table style="font-size:70%;">
+  <thead>
+    <tr>
+      <th>Effect</th>
+      <th>Description</th>
+      <th>Citation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="fragment">
+      <td><strong>Transparency</strong></td>
+      <td style="font-size:90%;">Public hypotheses & plans</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al, 2019</a>; <a href="https://doi.org/10.1111/add.15819">Marsden et al, 2022</a>; <a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al, 2022</a>; <a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al, 2021</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Less Bias</strong></td>
+      <td style="font-size:90%;">Encourages reporting nulls</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al, 2019</a>; <a href="https://doi.org/10.1111/add.15819">Marsden et al, 2022</a>; <a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al, 2022</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al, 2022</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Clearer Claims</strong></td>
+      <td style="font-size:90%;">Exploratory ≠ Confirmatory</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al, 2019</a>; <a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al, 2021</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al, 2022</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Better Quality</strong></td>
+      <td style="font-size:90%;">Plans include power, exclusion, etc.</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al, 2019</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al, 2022</a>; <a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al, 2022</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Credibility</strong></td>
+      <td style="font-size:90%;">Deviations are explicit</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al, 2022</a>; <a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al, 2021</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al, 2022</a>; <a href="https://doi.org/10.1080/23311908.2022.2066304">Osborne et al, 2022</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Easier Review</strong></td>
+      <td style="font-size:90%;">Reviewers know the plan</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1111/add.15819">Marsden et al, 2022</a>; <a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al, 2019</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Better Workflow</strong></td>
+      <td style="font-size:90%;">Forces early planning</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al, 2021</a>; <a href="https://doi.org/10.1080/23311908.2022.2066304">Osborne et al, 2022</a></td>
+    </tr>
+  </tbody>
+</table>
+
+------------------------------------------------------------------------
+
+### 2.3 Let's try a preregistration!
+
+---
+
+<img src="images/osf-logo.png" height="200">
+
+Open OSF Registries in new tab → [https://osf.io/registries](https://osf.io/registries)
+
+<span style='font-size: 50%;'>Note: You need to log in. If needed, create an account</span>
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 1
+
+::: columns
+
+::: {.column width="65%"}
+![](images/reg1.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- Once you're logged into OSF, go to the **Registries** section  
+- You can browse relevant registries for inspiration  
+- To create a preregistration, click on **Add New**  
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 2
+
+::: columns
+
+::: {.column width="65%"}
+![](images/reg2.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- You can link your preregistration to an existing OSF project  
+- There are many templates available for different study types  
+- For this example, select the **AsPredicted.org** template  
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 3
+
+::: columns
+
+::: {.column width="65%"}
+![](images/reg3.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- Click on **Create draft** to begin your preregistration  
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 4
+
+::: columns
+
+::: {.column width="65%"}
+![](images/reg4.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- Fill out the following fields:  
+  - **Title**  
+  - **Description**  
+  - **Contributors** (co-authors)  
+  - **License** selection  
+  - **Subject areas**  
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 5
+
+::: columns
+
+::: {.column width="65%"}
+![](images/reg5.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- Indicate whether data collection has already begun  
+- Describe your **study plan** clearly:  
+  - The more detail, the better  
+  - For **sample size**, include a justification  
+    ([Lakens, 2022](https://doi.org/10.1525/collabra.33267))  
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 5 (continued)
+
+::: columns
+
+::: {.column width="65%"}
+![](images/justify.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- Indicate whether data collection has already begun  
+- Describe your **study plan** clearly:  
+  - The more detail, the better  
+  - For **sample size**, include a justification  
+    ([Lakens, 2022](https://doi.org/10.1525/collabra.33267))  
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 6
+
+::: columns
+
+::: {.column width="65%"}
+![](images/reg6.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- Review your preregistration and correct any mistakes  
+- When ready, click **Register** to finalise  
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! Step 7
+
+::: columns
+
+::: {.column width="65%"}
+![](images/reg7.png){width=100%}
+:::
+
+::: {.column width="35%"}
+<div style="font-size: 60%;">
+- You can make your preregistration **public**, or place it under an **embargo** (delayed release)
+</div>
+:::
+
+:::
+
+---
+
+### 2.3 Let's Try a Preregistration! 
+
+Each preregistration is automatically assigned a unique **URL** and a **DOI** for permanent reference.
+
+For this workshop, I created an example:
+
+![](images/regFin.png){width=70%}  
+👉 [View this preregistration](https://doi.org/10.17605/OSF.IO/G2QMA)
+
+------------------------------------------------------------------------
+
+### 2.4 Limitations & Considerations
+
+::: {.fragment .fade-in}
+- Not a cure-all; vague preregistrations still allow bias <br><span style='font-size: 70%;'>[Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x); [Poole et al, 2024](https://doi.org/10.1177/13623613241308312)</span>
+:::
+
+::: {.fragment .fade-in}
+- Concerns: bureaucracy, misuse, restriction of exploratory analysis <br><span style='font-size: 70%;'>[Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Klonsky et al, 2024](https://doi.org/10.1177/10731911241253430); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x)</span>
+:::
+
+::: {.fragment .fade-in}
+- Not all research types benefit equally, but broadly beneficial  <br><span style='font-size: 70%;'>[Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x)</span>
+:::
+
+------------------------------------------------------------------------
+
+## Part 3: Registered Reports
+
+------------------------------------------------------------------------
+
+### 3.1 The difference?  {auto-animate=true}
+
+<https://www.cos.io/initiatives/registered-reports>
+
+<iframe 
+  src="https://www.cos.io/initiatives/registered-reports" 
+  width="100%" 
+  height="500px" 
+  style="border: 3px solid #ccc; border-radius: 8px;">
+</iframe>
+
+---
+
+### 3.1 The difference? {auto-animate=true}
+
+-   Peer review **before** data collection
+-   Accepted in principle → guaranteed publication
+-   Peer-reviewed methods → stronger designs
+
+------------------------------------------------------------------------
+
+### 3.2 Key benefits
+
+<table style="font-size:65%;">
+  <thead>
+    <tr>
+      <th>Effect</th>
+      <th>Description</th>
+      <th>Citation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="fragment">
+      <td><strong>Reduces Publication Bias</strong></td>
+      <td style="font-size:90%;">	Acceptance is based on study design, not results</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1038/s41562-021-01193-7">Chambers & Tzavella, 2021</a>; <a href="https://doi.org/10.1038/s41562-021-01142-4">Soderberg et al, 2021</a>; <a href="https://doi.org/10.1037/amp0001503">Liu et al, 2025</a>; <a href="https://doi.org/10.1016/j.fsisyn.2019.10.005">Chin et al, 2021</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Methodological Rigor</strong></td>
+      <td style="font-size:90%;">Early peer review enhances study design, analysis plans</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1038/s41562-021-01142-4">Soderberg et al, 2021</a>; <a href="https://doi.org/10.1177/0741932521996459">Cook et al, 2019</a>; <a href="https://doi.org/10.1177/07319487251317533">2025</a>; <a href="https://doi.org/10.1080/2833373x.2024.2376046">Lakens et al, 2024</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Transparency and Reproducibility</strong></td>
+      <td style="font-size:90%;">Protocols and analysis plans are pre-specified and openly available</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1038/s41562-021-01193-7">Chambers & Tzavella, 2021</a>; <a href="https://doi.org/10.1037/amp0001503">Liu et al, 2025</a>; <a href="https://doi.org/10.1027/1864-9335/A000192">Nosek et al, 2014</a>; <a href="https://doi.org/10.1080/2833373x.2024.2376046">Lakens et al, 2024</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Reduces Questionable Practices</strong></td>
+      <td style="font-size:90%;">Limits practices like p-hacking and HARKing</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1027/1864-9335/A000192">Nosek et al, 2014</a>; <a href="https://doi.org/10.1111/1748-8583.12359">Timming et al, 2021</a>; <a href="https://doi.org/10.1080/2833373x.2024.2376046">Lakens et al, 2024</a>; <a href="https://doi.org/10.1007/s12108-023-09563-6">Manago et al, 2023</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Constructive Early Feedback</strong></td>
+      <td style="font-size:90%;">Receive expert input on study design before data collection</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1177/0741932521996459">Cook et al, 2021</a>, <a href="https://doi.org/10.1177/07319487251317533">2025</a>; <a href="https://doi.org/10.1177/0741932521996459">Cook et al, 2021</a>; <a href="https://doi.org/10.1016/j.tins.2019.07.003">Kiyonaga et al, 2019</a></td>
+    </tr>
+    <tr class="fragment">
+      <td><strong>Promotes Acceptance of Replications/Null Results</strong></td>
+      <td style="font-size:90%;">Encourages publication of studies regardless of outcome</td>
+      <td style="font-size:80%;"><a href="https://doi.org/10.1038/s41562-021-01193-7">Chambers et al, 2020</a>; <a href="https://doi.org/10.1027/1864-9335/A000192">Nosek et al, 2014</a>; <a href="https://doi.org/10.1080/2833373x.2024.2376046">Lakens et al, 2024</a>; <a href="https://doi.org/10.1371/journal.pcbi.1010571">Henderson et al, 2022</a></td>
+    </tr>
+  </tbody>
+</table>
+
+------------------------------------------------------------------------
+
+### 3.3 The PCI RR model  {auto-animate=true}
+
+![](images/pci-rr-logo.png){width=100%}
+
+---
+
+### 3.3 The PCI RR model  {auto-animate=true}
+
+<div style="font-size: 50%;">
+
+::: {.fragment .fade-in}
+* **Peer Community In Registered Reports (PCI RR)** is a free, non-profit platform for reviewing and recommending Registered Reports.
+:::
+
+::: {.fragment .fade-in}
+* Authors submit a Stage 1 manuscript → receive peer review → upon in-principle acceptance (IPA), they can:
+:::
+
+::: {.fragment .fade-in}
+  - Publish the Stage 2 report in any of 100+ PCI RR-friendly journals
+:::
+
+::: {.fragment .fade-in}
+  - Or just use the PCI RR recommendation (free, citable)
+:::
+
+::: {.fragment .fade-in}
+* Ideal for authors who want:
+:::
+
+::: {.fragment .fade-in}
+  - A **journal-agnostic review process**
+:::
+
+::: {.fragment .fade-in}
+  - **More control** over publication options
+:::
+
+::: {.fragment .fade-in}
+  - **Transparent, open peer review**
+:::
+
+</div>
+
+---
+
+### 3.3 The PCI RR model  {auto-animate=true}
+
+You can learn more about the submission process and browse Stage 1 and Stage 2 reports at:
+
+🔗 [rr.peercommunityin.org](https://rr.peercommunityin.org)
+
+<iframe 
+  src="https://rr.peercommunityin.org" 
+  width="100%" 
+  height="400px" 
+  style="border: 3px solid #ccc; border-radius: 8px;">
+</iframe>
+
+------------------------------------------------------------------------
+
+### 3.4 Traditional vs. RRsPCI RR
+
+::: columns
+
+::: {.column width="50%"}
+**Traditional Journal**
+
+::: {.fragment .fade-in}
+- Submit directly to journal
+:::
+
+::: {.fragment .fade-in}
+- Closed review process
+:::
+
+::: {.fragment .fade-in}
+- Journal decides on IPA and publication
+:::
+
+::: {.fragment .fade-in}
+- APCs may apply
+:::
+:::
+
+::: {.column width="50%"}
+**PCI RR**
+
+::: {.fragment .fade-in}
+- Submit to platform, not journal
+:::
+
+::: {.fragment .fade-in}
+- Transparent review process
+:::
+
+::: {.fragment .fade-in}
+- Choose journal after in-principle acceptance
+:::
+
+::: {.fragment .fade-in}
+- Completely free
+:::
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+### 3.5 Registered Reports: Real-World Adoption
+
+::: {.fragment .fade-in}
+- ✅ Over **300 journals** now offer Registered Reports
+:::
+
+::: {.fragment .fade-in}
+- 🧪 Used in disciplines ranging from **psychology** to **ecology**, **medicine**, and **economics**
+:::
+
+::: {.fragment .fade-in}
+- 💬 Growing support from funders and institutions
+:::
+
+::: {.fragment .fade-in}
+- 🌍 PCI RR offers a global, open-access alternative
+:::
+
+<span style="font-size: 60%;">Sources: cos.io, PCIRR, <a href="https://doi.org/10.1038/s41562-021-01193-7">Chambers & Tzavella, 2021</a></span>
+
+------------------------------------------------------------------------
+
+### 3.6 Are Registered Reports Always Appropriate?
+
+::: {.fragment .fade-in}
+- Not ideal for **purely exploratory** or **rapid-response** studies
+:::
+
+::: {.fragment .fade-in}
+- May introduce extra planning time and peer-review delays
+:::
+
+::: {.fragment .fade-in}
+- But most **confirmatory** studies benefit from this model
+:::
+
+------------------------------------------------------------------------
+
+### 3.7 How to Start with Registered Reports
+
+::: {.fragment .fade-in}
+1. Pick a journal or use [PCI RR](https://rr.peercommunityin.org)
+:::
+
+::: {.fragment .fade-in}
+2. Follow the RR template (e.g., OSF, journal guidelines)
+:::
+
+::: {.fragment .fade-in}
+3. Submit your Stage 1 manuscript before collecting data
+:::
+
+::: {.fragment .fade-in}
+4. Revise based on peer review and receive IPA
+:::
+
+::: {.fragment .fade-in}
+5. Collect data → submit Stage 2 → publish with confidence!
+:::
+
+------------------------------------------------------------------------
+
+# Questions? Discussion
+
+Feel free to ask, critique, or share your experiences.
+
+------------------------------------------------------------------------
+
+## Extra (if time allows)
+
+- Search [OSF Registries](https://osf.io/registries?view_only=) or [PCI RR](https://rr.peercommunityin.org)
+- Discuss good vs. vague examples
+
+------------------------------------------------------------------------
+
+## Summary
+
+- Many threats to replicability are **systemic — but solvable**
+- **Preregistration** helps plan better, interpret clearly, and build credibility
+- **Registered Reports** realign incentives and reduce bias
+- Tools like OSF and PCI RR make this accessible and scalable
+
+------------------------------------------------------------------------
+
+## Thank you!
+
+::: columns
+
+::: {.column width="50%"}
+![](images/jdl_qr.png){width=60%}
+:::
+
+::: {.column width="50%"}
+<br><br><br>
+**Juan David Leongómez**  <span style='font-size: 50%;'>PhD, MSc</span><br>
+<span style='font-size: 70%;'>[jleongomez@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co)</span><br>
+:::
+
+:::
