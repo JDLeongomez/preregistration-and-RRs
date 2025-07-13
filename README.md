@@ -9,7 +9,7 @@ The workshop covers:
 - Common threats to scientific replicability
 - What preregistration is (and isn’t), and why it matters
 - How registered reports help realign incentives and improve study design
-- Practical guidance on using OSF, AsPredicted, and PCI Registered Reports (PCI RR)
+- Practical guidance on using OSF, and PCI Registered Reports (PCI RR)
 
 ## 🛠 Tools and Platforms
 
