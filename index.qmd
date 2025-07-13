@@ -33,6 +33,21 @@ toc: false
 
 ------------------------------------------------------------------------
 
+## Overview
+
+### 🧭 Workshop Outline
+
+1. **The Challenges to Scientific Credibility**  
+   Replication crisis, questionable research practices, and incentive structures.
+
+2. **Preregistration**  
+   What it is, how it works, and why it improves research transparency.
+
+3. **Registered Reports**  
+   A peer-review model that shifts the focus to study design and rigour.
+   
+------------------------------------------------------------------------
+
 ## Part 1: The challenges to scientific credibility
 
 ------------------------------------------------------------------------
