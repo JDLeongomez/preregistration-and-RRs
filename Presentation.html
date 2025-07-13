@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="es"><head>
 <script src="Presentation_files/libs/clipboard/clipboard.min.js"></script>
 <script src="Presentation_files/libs/quarto-html/tabby.min.js"></script>
 <script src="Presentation_files/libs/quarto-html/popper.min.js"></script>
@@ -9,7 +9,7 @@
 <link href="Presentation_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>From Theory to Practice: Strengthening Research Integrity with Preregistration and Registered Reports</title>
+  <title>presentation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="Presentation_files/libs/revealjs/dist/theme/quarto-d58ca6e55452da357bd4996cb6e3aa10.css">
+  <link rel="stylesheet" href="Presentation_files/libs/revealjs/dist/theme/quarto-8f3eebe07241f08526c91a7e9cbef8fd.css">
   <link href="Presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="Presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -125,167 +125,570 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">From Theory to Practice: Strengthening Research Integrity with Preregistration and Registered Reports</h1>
 
-<div class="quarto-title-authors">
-</div>
-
+<section id="from-theory-to-practice-strengthening-research-integrity-with-preregistration-and-registered-reports" class="slide level2 center">
+<h2>From Theory to Practice: <span style="font-size: 70%;">Strengthening Research Integrity with <em>Preregistration</em> and <em>Registered Reports</em></span></h2>
+<p><br><strong>Juan David Leongómez</strong> <span style="font-size: 70%;">PhD, MSc</span><br> <span style="font-size: 70%;"><a href="mailto:jleongomez@unbosque.edu.co">jleongomez@unbosque.edu.co</a></span><br></p>
+<p><img src="images/logos.png" height="100"></p>
+<p><span style="font-size: 70%;">ISHE Summer Institute 2025 · Valparaiso, Chile</span></p>
 </section>
-<section>
-<section id="can-we-trust-the-literature" class="title-slide slide level1 center">
-<h1>Can we trust the literature?</h1>
+<section id="part-1-the-chalenges-to-scientific-credibility" class="slide level2 center">
+<h2>Part 1: The chalenges to scientific credibility</h2>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="section"></h3>
+<p><strong>Q:</strong> What percentage of published findings in psychology are statistically significant?<br>
+</p>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="section-1"></h3>
+<p><strong>Q:</strong> What percentage of published findings in psychology are statistically significant?<br>
+<strong>A:</strong> <span style="font-size: 150%; color:#f7766d;">96%</span></p>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="section-2"></h3>
+<p><strong>Q:</strong> What percentage of published findings in psychology are statistically significant?<br>
+<strong>A:</strong> <span style="font-size: 150%; color:#f7766d;">96%</span></p>
+
+<img data-src="images/p05.png" class="r-stretch"></section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="section-3"></h3>
+<p><strong>Q:</strong> What percentage of published findings in psychology are statistically significant?<br>
+<strong>A:</strong> <span style="font-size: 150%; color:#f7766d;">96%</span></p>
+
+<img data-src="images/power.gif?v=1" class="r-stretch"></section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="section-4"></h3>
+<p><a href="https://shiny.jdl-svr.lat/PowerSimulate_ind_t_EN/" class="uri">https://shiny.jdl-svr.lat/PowerSimulate_ind_t_EN/</a></p>
+<iframe src="https://shiny.jdl-svr.lat/PowerSimulate_ind_t_EN/" width="100%" height="500px" style="border: 3px solid #ccc; border-radius: 8px;">
+</iframe>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="can-we-trust-the-literature">1.1 Can we trust the literature?</h3>
+<p>There are 2 options:</p>
+<ol type="1">
+<li>We study effects with &gt;90% power and &gt;90% probability of being true.</li>
+</ol>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="can-we-trust-the-literature-1">1.1 Can we trust the literature?</h3>
 <p>There are 2 options:</p>
 <ol type="1">
 <li>We study effects with &gt;90% power and &gt;90% probability of being true.</li>
 <li>There is <strong>massive publication bias</strong>.</li>
 </ol>
-<p><img data-src="images/image-4.png" style="width:80.0%"><br>
-<a href="https://x.com/cremieuxrecueil/status/1772765486935056893">Source</a></p>
 </section>
 <section class="slide level2 center">
 
-<h3 id="the-significance-filter-the-winners-curse-and-shrinkage">The significance filter, the winner’s curse, and shrinkage</h3>
-<p>1.1 million z-values from medical research (1976–2019)</p>
-<div class="columns">
-<div class="column">
-<p><img data-src="images/image-5.png" style="width:100.0%"></p>
-</div><div class="column">
-<p><img data-src="images/image.png" style="width:100.0%"></p>
-</div></div>
-<p><img data-src="images/image-1.png" style="width:70.0%"><br>
-<a href="https://doi.org/10.1111/stan.12241">Stan. (2020)</a></p>
+<h3 data-auto-animate="true" id="can-we-trust-the-literature-2">1.1 Can we trust the literature?</h3>
+<ol start="2" type="1">
+<li>There is <strong>massive publication bias</strong> (in multiple disciplines).</li>
+</ol>
+<p><img data-src="images/image-4.png" style="width:60.0%"><br>
+<span style="font-size: 50%;"><a href="https://x.com/cremieuxrecueil/status/1772765486935056893">Source</a></span></p>
 </section>
 <section class="slide level2 center">
 
-<h3 id="psychological-science">Psychological science</h3>
-<blockquote>
-<p><strong>Q:</strong> What percentage of published findings in psychology are statistically significant?<br>
-<strong>A:</strong> 96%</p>
-</blockquote>
-<p><img data-src="images/image-3.png" style="width:70.0%"><br>
-<a href="https://doi.org/10.1177/251524592110074">Source</a></p>
+<h3 data-auto-animate="true" id="the-significance-filter">1.2 The significance filter</h3>
+
+<img data-src="images/image-5.png" style="width:80.0%" data-top="200" data-left="0" class="r-stretch"></section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="the-significance-filter-1">1.2 The significance filter</h3>
+<div class="column" style="width:50%;">
+<p>1.1 million z-values medical research (1976–2019) <img data-src="images/image.png" data-top="200" data-left="0" width="400"> <br> <span style="font-size: 50%;"><a href="https://doi.org/10.1111/stan.12241">van Zwet &amp; Cator (2021)</a></span></p>
+</div><div class="column fragment fade-in" style="width:50%;">
+<p><br>Also PLOS ONE <img data-src="images/image-1.png" data-top="200" data-right="50" width="400"></p>
+</div></section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability">1.3 Threats to Scientific Replicability</h3>
 </section>
 <section class="slide level2 center">
 
-</section></section>
-<section>
-<section id="threats-to-scientific-replicability" class="title-slide slide level1 center">
-<h1>Threats to Scientific Replicability</h1>
-
-</section>
-<h3 id="p-hacking">🧪 P-hacking</h3>
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability-1">1.3 Threats to Scientific Replicability</h3>
+<ol type="1">
+<li>🧪 <strong>P-hacking</strong></li>
+</ol>
+<div class="fragment fade-in">
 <ul>
 <li>Trying multiple analyses to get p &lt; .05</li>
 <li>Inflates Type I error</li>
 </ul>
-<h3 id="harking">💡 HARKing</h3>
+</div>
+<div class="fragment fade-in">
+<ol start="2" type="1">
+<li>💡 <strong>HARKing</strong></li>
+</ol>
+</div>
+<div class="fragment fade-in">
 <ul>
 <li>Hypothesising After Results are Known</li>
 <li>Misleads about test nature</li>
 </ul>
-<h3 id="publication-bias">📦 Publication Bias</h3>
+</div>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability-2">1.3 Threats to Scientific Replicability</h3>
+<ol start="2" type="1">
+<li>💡 <strong>HARKing</strong></li>
+</ol>
+
+<img data-src="images/HARKing.jpeg" class="r-stretch"></section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability-3">1.3 Threats to Scientific Replicability</h3>
+<ol start="3" type="1">
+<li>📦 <strong>Publication Bias</strong></li>
+</ol>
+<div class="fragment fade-in">
 <ul>
 <li>Journals prefer positive results</li>
 <li>Nulls go to the file drawer</li>
 </ul>
-<section class="slide level2 center">
-
-<h3 id="more-threats">More threats</h3>
-<h3 id="low-statistical-power">📏 Low Statistical Power</h3>
+</div>
+<div class="fragment fade-in">
+<ol start="4" type="1">
+<li>📏 <strong>Low Statistical Power</strong></li>
+</ol>
+</div>
+<div class="fragment fade-in">
 <ul>
 <li>Small samples → false negatives &amp; inflated effects</li>
 </ul>
-<h3 id="flexible-pipelines">🔧 Flexible Pipelines</h3>
-<ul>
-<li>Many ways to analyse data → bias if not preplanned</li>
-</ul>
-<h3 id="lack-of-preregistration">🧠 Lack of Preregistration</h3>
-<ul>
-<li>Can’t distinguish exploratory vs.&nbsp;confirmatory</li>
-</ul>
+</div>
 </section>
 <section class="slide level2 center">
 
-<h3 id="more-threats-cont.">More threats (cont.)</h3>
-<h3 id="inadequate-reporting">🧾 Inadequate Reporting</h3>
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability-4">1.3 Threats to Scientific Replicability</h3>
+<ol start="5" type="1">
+<li>🔧 <strong>Flexible Pipelines</strong></li>
+</ol>
+<div class="fragment fade-in">
+<ul>
+<li>Many ways to analyse data → bias if not preplanned</li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ol start="6" type="1">
+<li>🧠 <strong>Lack of Preregistration</strong></li>
+</ol>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>Can’t distinguish exploratory vs.&nbsp;confirmatory</li>
+</ul>
+</div>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability-5">1.3 Threats to Scientific Replicability</h3>
+<ol start="7" type="1">
+<li>🧾 <strong>Inadequate Reporting</strong></li>
+</ol>
+<div class="fragment fade-in">
 <ul>
 <li>Missing methods, software versions, etc.</li>
 </ul>
-<h3 id="selective-outcome-reporting">📊 Selective Outcome Reporting</h3>
+</div>
+<div class="fragment fade-in">
+<ol start="8" type="1">
+<li>📊 <strong>Selective Outcome Reporting</strong></li>
+</ol>
+</div>
+<div class="fragment fade-in">
 <ul>
 <li>Choosing time points or measures post hoc</li>
 </ul>
-<h3 id="datacode-not-shared">🔄 Data/Code not Shared</h3>
+</div>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability-6">1.3 Threats to Scientific Replicability</h3>
+<ol start="9" type="1">
+<li>🔄 <strong>Data/Code not Shared</strong></li>
+</ol>
+<div class="fragment fade-in">
 <ul>
 <li>Blocks replication &amp; error-checking</li>
 </ul>
-<h3 id="cultural-incentives">🌐 Cultural Incentives</h3>
+</div>
+<div class="fragment fade-in">
+<ol start="10" type="1">
+<li>🌐 <strong>Cultural Incentives</strong></li>
+</ol>
+</div>
+<div class="fragment fade-in">
 <ul>
 <li>Publish-or-perish culture</li>
 <li>Replications &amp; nulls undervalued</li>
 </ul>
+</div>
 </section>
 <section class="slide level2 center">
 
-</section></section>
-<section>
-<section id="preregistration" class="title-slide slide level1 center">
-<h1>Preregistration</h1>
-
+<h3 data-auto-animate="true" id="threats-to-scientific-replicability-7">1.3 Threats to Scientific Replicability</h3>
+<p>The <strong>four horsemen of the reproducibility apocalypse</strong> <img data-src="images/4horsemen.jpg"></p>
 </section>
-<h3 id="key-benefits">Key Benefits</h3>
-<table class="caption-top">
+<section id="part-2-preregistration" class="slide level2 center">
+<h2>Part 2: Preregistration</h2>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="what-is-preregistration">2.1 What is preregistration?</h3>
+<p><strong>Pre-registration</strong> is the act of specifying your research plan before conducting the study</p>
+<div class="fragment fade-in">
+<p><img data-src="images/cos.webp"></p>
+</div>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="what-is-preregistration-1">2.1 What is preregistration?</h3>
+<p><a href="https://www.cos.io/initiatives/prereg" class="uri">https://www.cos.io/initiatives/prereg</a></p>
+<iframe src="https://www.cos.io/initiatives/prereg" width="100%" height="400px" style="border: 3px solid #ccc; border-radius: 8px;">
+</iframe>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="what-is-preregistration-2">2.1 What is preregistration?</h3>
+<p><strong>What is preregistration?</strong></p>
+<div class="fragment fade-in">
+<ul>
+<li>Define your research question and hypotheses <strong>before</strong> collecting data</li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>Specify your analysis plan and study design in advance</li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>Clearly link your hypotheses to your planned methods and outcomes</li>
+</ul>
+</div>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="what-is-preregistration-3">2.1 What is preregistration?</h3>
+<p><strong>Why preregister?</strong></p>
+<div class="fragment fade-in">
+<ul>
+<li>Enhances <strong>credibility</strong> by making your intentions transparent</li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>Helps you plan better and avoid analytical drift</li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>Keeps all your design and analysis decisions in one place — even before data collection!</li>
+</ul>
+</div>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="what-is-preregistration-4">2.1 What is preregistration?</h3>
+<p><strong>Can I still explore my data?</strong></p>
+<div class="fragment fade-in">
+<p>Absolutely! Preregistration doesn’t ban exploration. It just encourages <strong>clarity</strong> between confirmatory and exploratory analyses</p>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>You can deviate from your plan. Just be upfront and explain why</li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>The goal isn’t rigidity, but <strong>transparency</strong></li>
+</ul>
+</div>
+</section>
+<section class="slide level2 center">
+
+<h3 data-auto-animate="true" id="key-benefits-of-preregistration">2.2 Key Benefits of preregistration</h3>
+<div style="font-size: 80%;">
+<table style="font-size:85%;">
 <thead>
-<tr class="header">
-<th>Effect</th>
-<th>Description</th>
+<tr>
+<th>
+Effect
+</th>
+<th>
+Description
+</th>
+<th>
+Citation
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><strong>Transparency</strong></td>
-<td>Public hypotheses &amp; plans</td>
+<tr class="fragment">
+<td>
+<strong>Transparency</strong>
+</td>
+<td style="font-size:90%;">
+Public hypotheses &amp; plans
+</td>
+<td style="font-size:80%;">
+<a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al., 2019</a>; <a href="https://doi.org/10.1111/add.15819">Marsden et al., 2022</a>; <a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al., 2022</a>; <a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al., 2021</a>
+</td>
 </tr>
-<tr class="even">
-<td><strong>Less Bias</strong></td>
-<td>Encourages reporting nulls</td>
+<tr class="fragment">
+<td>
+<strong>Less Bias</strong>
+</td>
+<td style="font-size:90%;">
+Encourages reporting nulls
+</td>
+<td style="font-size:80%;">
+<a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al., 2019</a>; <a href="https://doi.org/10.1111/add.15819">Marsden et al., 2022</a>; <a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al., 2022</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al., 2022</a>
+</td>
 </tr>
-<tr class="odd">
-<td><strong>Clearer Claims</strong></td>
-<td>Exploratory ≠ Confirmatory</td>
+<tr class="fragment">
+<td>
+<strong>Clearer Claims</strong>
+</td>
+<td style="font-size:90%;">
+Exploratory ≠ Confirmatory
+</td>
+<td style="font-size:80%;">
+<a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al., 2019</a>; <a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al., 2021</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al., 2022</a>
+</td>
 </tr>
-<tr class="even">
-<td><strong>Better Quality</strong></td>
-<td>Plans include power, exclusion, etc.</td>
+<tr class="fragment">
+<td>
+<strong>Better Quality</strong>
+</td>
+<td style="font-size:90%;">
+Plans include power, exclusion, etc.
+</td>
+<td style="font-size:80%;">
+<a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al., 2019</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al., 2022</a>; <a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al., 2022</a>
+</td>
 </tr>
-<tr class="odd">
-<td><strong>Credibility</strong></td>
-<td>Deviations are explicit</td>
+<tr class="fragment">
+<td>
+<strong>Credibility</strong>
+</td>
+<td style="font-size:90%;">
+Deviations are explicit
+</td>
+<td style="font-size:80%;">
+<a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al., 2022</a>; <a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al., 2021</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al., 2022</a>; <a href="https://doi.org/10.1080/23311908.2022.2066304">Osborne et al., 2022</a>
+</td>
 </tr>
-<tr class="even">
-<td><strong>Easier Review</strong></td>
-<td>Reviewers know the plan</td>
+<tr class="fragment">
+<td>
+<strong>Easier Review</strong>
+</td>
+<td style="font-size:90%;">
+Reviewers know the plan
+</td>
+<td style="font-size:80%;">
+<a href="https://doi.org/10.1111/add.15819">Marsden et al., 2022</a>; <a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al., 2019</a>
+</td>
 </tr>
-<tr class="odd">
-<td><strong>Better Workflow</strong></td>
-<td>Forces early planning</td>
+<tr class="fragment">
+<td>
+<strong>Better Workflow</strong>
+</td>
+<td style="font-size:90%;">
+Forces early planning
+</td>
+<td style="font-size:80%;">
+<a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al., 2021</a>; <a href="https://doi.org/10.1080/23311908.2022.2066304">Osborne et al., 2022</a>
+</td>
 </tr>
 </tbody>
 </table>
-<p>Sources: <a href="https://doi.org/10.24602/sjpr.62.3_221">1–13</a> and citations via Consensus.</p>
-<section class="slide level2 center">
-
-<h3 id="limitations-considerations">Limitations &amp; Considerations</h3>
-<ul>
-<li>Not a cure-all; vague preregistrations still allow bias [12]</li>
-<li>Concerns: bureaucracy, misuse, restriction of exploration [4,7,10]</li>
-<li>Not for all types of research, but broadly beneficial [3,6,12]</li>
-</ul>
+</div>
 </section>
 <section class="slide level2 center">
 
-</section></section>
+<h3 id="lets-try-a-preregistration">2.3 Let’s try a preregistration!</h3>
+</section>
+<section class="slide level2 center">
+
+<p>Open OSF Registries in new tab → <a href="https://osf.io/registries">https://osf.io/registries</a></p>
+<p><span style="font-size: 50%;">Note: You need to log in. If needed, create an account</span></p>
+</section>
+<section class="slide level2 center">
+
+<h3 id="lets-try-a-preregistration-step-1">2.3 Let’s Try a Preregistration! Step 1</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/reg1.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li>Once you’re logged into OSF, go to the <strong>Registries</strong> section<br>
+</li>
+<li>You can browse relevant registries for inspiration<br>
+</li>
+<li>To create a preregistration, click on <strong>Add New</strong><br>
+</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section class="slide level2 center">
+
+<h3 id="lets-try-a-preregistration-step-2">2.3 Let’s Try a Preregistration! Step 2</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/reg2.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li>You can link your preregistration to an existing OSF project<br>
+</li>
+<li>There are many templates available for different study types<br>
+</li>
+<li>For this example, select the <strong>AsPredicted.org</strong> template<br>
+</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section class="slide level2 center">
+
+<h3 id="lets-try-a-preregistration-step-3">2.3 Let’s Try a Preregistration! Step 3</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/reg3.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li>Click on <strong>Create draft</strong> to begin your preregistration<br>
+</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section class="slide level2 center">
+
+<h3 id="lets-try-a-preregistration-step-4">2.3 Let’s Try a Preregistration! Step 4</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/reg4.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li>Fill out the following fields:
+<ul>
+<li><strong>Title</strong><br>
+</li>
+<li><strong>Description</strong><br>
+</li>
+<li><strong>Contributors</strong> (co-authors)<br>
+</li>
+<li><strong>License</strong> selection<br>
+</li>
+<li><strong>Subject areas</strong><br>
+</li>
+</ul></li>
+</ul>
+</div>
+</div></div>
+</section>
+<section class="slide level2 center">
+
+<h3 id="lets-try-a-preregistration-step-5">2.3 Let’s Try a Preregistration! Step 5</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/reg5.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li>Indicate whether data collection has already begun<br>
+</li>
+<li>Describe your <strong>study plan</strong> clearly:
+<ul>
+<li>The more detail, the better<br>
+</li>
+<li>For <strong>sample size</strong>, include a justification<br>
+(<a href="https://doi.org/10.1525/collabra.33267">Lakens, 2022</a>)<br>
+</li>
+</ul></li>
+</ul>
+</div>
+</div></div>
+</section>
+<section class="slide level2 center">
+
+<h3 id="lets-try-a-preregistration-step-5-continued">2.3 Let’s Try a Preregistration! Step 5 (continued)</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/justify.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li>Indicate whether data collection has already begun<br>
+</li>
+<li>Describe your <strong>study plan</strong> clearly:
+<ul>
+<li>The more detail, the better<br>
+</li>
+<li>For <strong>sample size</strong>, include a justification<br>
+(<a href="https://doi.org/10.1525/collabra.33267">Lakens, 2022</a>)<br>
+</li>
+</ul></li>
+</ul>
+</div>
+</div></div>
+</section>
+<section class="slide level2 center">
+
+<h3 id="lets-try-a-preregistration-step-6">2.3 Let’s Try a Preregistration! Step 6</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/reg6.png" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 60%;">
+<ul>
+<li>Review your preregistration and correct any mistakes<br>
+</li>
+<li>When ready, click <strong>Register</strong> to finalise<br>
+</li>
+<li><em>(In this demo, I will delete the draft instead)</em><br>
+</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section class="slide level2 center">
+
+<h3 id="limitations-considerations">Limitations &amp; Considerations</h3>
+<div class="fragment fade-in">
+<ul>
+<li>Not a cure-all; vague preregistrations still allow bias <br><span style="font-size: 70%;"><a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al., 2022</a>; <a href="https://doi.org/10.1177/13623613241308312">Poole et al, 2024</a></span></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>Concerns: bureaucracy, misuse, restriction of exploration <br><span style="font-size: 70%;"><a href="https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT">Toth et al., 2019</a>; <a href="https://doi.org/10.1177/10731911241253430">Klonsky et al, 2024</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al., 2022</a></span></li>
+</ul>
+</div>
+<div class="fragment fade-in">
+<ul>
+<li>Not for all types of research, but broadly beneficial <br><span style="font-size: 70%;"><a href="https://doi.org/10.21428/1192f2f8.52d90db5">Dewitte et al, 2021</a>; <a href="https://doi.org/10.1016/j.mbs.2022.108782">Ioannidis et al, 2022</a>; <a href="https://doi.org/10.1038/s41386-022-01418-x">Waldron et al., 2022</a></span></li>
+</ul>
+</div>
+</section>
+<section class="slide level2 center">
+
+</section>
 <section>
 <section id="registered-reports" class="title-slide slide level1 center">
 <h1>Registered Reports</h1>
@@ -354,8 +757,9 @@
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="images/logos.png" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p>Juan David Leongómez <span style="font-size: 70%;">PhD, MSc</span></p>
 </div>
 </div></div>
 
@@ -513,14 +917,14 @@
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
-        backgroundTransition: 'none',
+        backgroundTransition: 'fade',
 
         // Number of slides away from the current that are visible
         viewDistance: 3,
@@ -607,12 +1011,12 @@
         // flash "checked"
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
+        button.setAttribute("title", "Copiado");
         let tooltip;
         if (window.bootstrap) {
           button.setAttribute("data-bs-toggle", "tooltip");
           button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
+          button.setAttribute("data-bs-title", "Copiado");
           tooltip = new bootstrap.Tooltip(button, 
             { trigger: "manual", 
               customClass: "code-copy-button-tooltip",

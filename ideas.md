@@ -80,6 +80,8 @@ The significance filter, the winner's curse and the need to shrink
 
 ## Preregistration
 
+<https://www.cos.io/initiatives/prereg>
+
 The value of preregistration for psychological science: A conceptual analysis
 <https://doi.org/10.24602/sjpr.62.3_221>
 
@@ -97,7 +99,7 @@ The value of preregistration for psychological science: A conceptual analysis
 
 ### Preregistration workshop
 
-XXXXXX
+<https://osf.io/jbpa7>
 
 ### Limitations and Considerations
 
