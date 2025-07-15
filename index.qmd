@@ -25,9 +25,9 @@ toc: false
 
 ------------------------------------------------------------------------
 
-###  📲 Access the Slides Online {style="color:#f7766d;"} 
+### 📲 Access the Slides Online {style="color:#f7766d;"}
 
-![](images/presentation-qr.png){width=50%}
+![](images/presentation-qr.png){width="50%"}
 
 [https://jdleongomez.github.io/preregistration-and-RRs/](https://jdleongomez.github.io/preregistration-and-RRs/){style="font-size: 70%;"}
 
@@ -37,15 +37,15 @@ toc: false
 
 ### 🧭 Workshop Outline
 
-1. **The Challenges to Scientific Credibility**  
-   Replication crisis, questionable research practices, and incentive structures.
+1.  **The Challenges to Scientific Credibility**\
+    Replication crisis, questionable research practices, and incentive structures.
 
-2. **Preregistration**  
-   What it is, how it works, and why it improves research transparency.
+2.  **Preregistration**\
+    What it is, how it works, and why it improves research transparency.
 
-3. **Registered Reports**  
-   A peer-review model that shifts the focus to study design and rigour.
-   
+3.  **Registered Reports**\
+    A peer-review model that shifts the focus to study design and rigour.
+
 ------------------------------------------------------------------------
 
 ## Part 1: The challenges to scientific credibility
@@ -331,23 +331,15 @@ Absolutely! Preregistration doesn’t ban exploration. It just encourages **clar
 
 ### 2.2 Key Benefits of preregistration {auto-animate="true"}
 
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Effect              | Description                          | Citation                                                                                                                                                                                                                                                                       |
-+=====================+======================================+================================================================================================================================================================================================================================================================================+
-| **Transparency**    | Public hypotheses & plans            | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5)          |
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Less Bias**       | Encourages reporting nulls           | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x)          |
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Clearer Claims**  | Exploratory ≠ Confirmatory           | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x)                                                                     |
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Better Quality**  | Plans include power, exclusion, etc. | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782)                                                                    |
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Credibility**     | Deviations are explicit              | [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x); [Osborne et al, 2022](https://doi.org/10.1080/23311908.2022.2066304) |
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Easier Review**   | Reviewers know the plan              | [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT)                                                                                                                                                 |
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Better Workflow** | Forces early planning                | [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Osborne et al, 2022](https://doi.org/10.1080/23311908.2022.2066304)                                                                                                                                        |
-+---------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Effect | Description | Citation |
+|-----------|-----------|--------------------------------------------------|
+| **Transparency** | Public hypotheses & plans | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5) |
+| **Less Bias** | Encourages reporting nulls | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x) |
+| **Clearer Claims** | Exploratory ≠ Confirmatory | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x) |
+| **Better Quality** | Plans include power, exclusion, etc. | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782) |
+| **Credibility** | Deviations are explicit | [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x); [Osborne et al, 2022](https://doi.org/10.1080/23311908.2022.2066304) |
+| **Easier Review** | Reviewers know the plan | [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT) |
+| **Better Workflow** | Forces early planning | [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Osborne et al, 2022](https://doi.org/10.1080/23311908.2022.2066304) |
 
 ------------------------------------------------------------------------
 
@@ -560,21 +552,14 @@ For this workshop, I created an example:
 
 ### 3.2 Key benefits
 
-+------------------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Effect                                               | Description                                                         | Citation                                                                                                                                                                                                                                                                       |
-+======================================================+=====================================================================+================================================================================================================================================================================================================================================================================+
-| **Reduces Publication Bias**                         | Acceptance is based on study design, not results                    | [Chambers & Tzavella, 2021](https://doi.org/10.1038/s41562-021-01193-7); [Soderberg et al, 2021](https://doi.org/10.1038/s41562-021-01142-4); [Liu et al, 2025](https://doi.org/10.1037/amp0001503); [Chin et al, 2021](https://doi.org/10.1016/j.fsisyn.2019.10.005)          |
-+------------------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Methodological Rigor**                             | Early peer review enhances study design, analysis plans             | [Soderberg et al, 2021](https://doi.org/10.1038/s41562-021-01142-4); [Cook et al, 2019](https://doi.org/10.1177/0741932521996459); [2025](https://doi.org/10.1177/07319487251317533); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046)                      |
-+------------------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Transparency and Reproducibility**                 | Protocols and analysis plans are pre-specified and openly available | [Chambers & Tzavella, 2021](https://doi.org/10.1038/s41562-021-01193-7); [Liu et al, 2025](https://doi.org/10.1037/amp0001503); [Nosek et al, 2014](https://doi.org/10.1027/1864-9335/A000192); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046)            |
-+------------------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Reduces Questionable Practices**                   | Limits practices like p-hacking and HARKing                         | [Nosek et al, 2014](https://doi.org/10.1027/1864-9335/A000192); [Timming et al, 2021](https://doi.org/10.1111/1748-8583.12359); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046); [Manago et al, 2023](https://doi.org/10.1007/s12108-023-09563-6)          |
-+------------------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Constructive Early Feedback**                      | Receive expert input on study design before data collection         | [Cook et al, 2021](https://doi.org/10.1177/0741932521996459), [2025](https://doi.org/10.1177/07319487251317533); [Cook et al, 2021](https://doi.org/10.1177/0741932521996459); [Kiyonaga et al, 2019](https://doi.org/10.1016/j.tins.2019.07.003)                              |
-+------------------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Promotes Acceptance of Replications/Null Results** | Encourages publication of studies regardless of outcome             | [Chambers et al, 2020](https://doi.org/10.1038/s41562-021-01193-7); [Nosek et al, 2014](https://doi.org/10.1027/1864-9335/A000192); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046); [Henderson et al, 2022](https://doi.org/10.1371/journal.pcbi.1010571) |
-+------------------------------------------------------+---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Effect | Description | Citation |
+|--------------|--------------|--------------------------------------------|
+| **Reduces Publication Bias** | Acceptance is based on study design, not results | [Chambers & Tzavella, 2021](https://doi.org/10.1038/s41562-021-01193-7); [Soderberg et al, 2021](https://doi.org/10.1038/s41562-021-01142-4); [Liu et al, 2025](https://doi.org/10.1037/amp0001503); [Chin et al, 2021](https://doi.org/10.1016/j.fsisyn.2019.10.005) |
+| **Methodological Rigor** | Early peer review enhances study design, analysis plans | [Soderberg et al, 2021](https://doi.org/10.1038/s41562-021-01142-4); [Cook et al, 2019](https://doi.org/10.1177/0741932521996459); [2025](https://doi.org/10.1177/07319487251317533); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046) |
+| **Transparency and Reproducibility** | Protocols and analysis plans are pre-specified and openly available | [Chambers & Tzavella, 2021](https://doi.org/10.1038/s41562-021-01193-7); [Liu et al, 2025](https://doi.org/10.1037/amp0001503); [Nosek et al, 2014](https://doi.org/10.1027/1864-9335/A000192); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046) |
+| **Reduces Questionable Practices** | Limits practices like p-hacking and HARKing | [Nosek et al, 2014](https://doi.org/10.1027/1864-9335/A000192); [Timming et al, 2021](https://doi.org/10.1111/1748-8583.12359); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046); [Manago et al, 2023](https://doi.org/10.1007/s12108-023-09563-6) |
+| **Constructive Early Feedback** | Receive expert input on study design before data collection | [Cook et al, 2021](https://doi.org/10.1177/0741932521996459), [2025](https://doi.org/10.1177/07319487251317533); [Cook et al, 2021](https://doi.org/10.1177/0741932521996459); [Kiyonaga et al, 2019](https://doi.org/10.1016/j.tins.2019.07.003) |
+| **Promotes Acceptance of Replications/Null Results** | Encourages publication of studies regardless of outcome | [Chambers et al, 2020](https://doi.org/10.1038/s41562-021-01193-7); [Nosek et al, 2014](https://doi.org/10.1027/1864-9335/A000192); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046); [Henderson et al, 2022](https://doi.org/10.1371/journal.pcbi.1010571) |
 
 ------------------------------------------------------------------------
 
@@ -740,6 +725,21 @@ You can learn more about the submission process and browse Stage 1 and Stage 2 r
 5.  Collect data → submit Stage 2 → publish with confidence!
 :::
 
+------------------------------------------------------------------------
+
+### 3.8 effects of Registered Reports
+
+::::: columns
+
+::: {.column .fragment .fade-in width="50%"}
+![](images/image-6.png){top="200" right="50" width="400"} <br> [Source](https://www.fxstreet.com/analysis/eur-chf-has-stopped-going-down-at-month-end-202503270738){style="font-size: 50%;"}
+:::
+
+::: {.column .fragment .fade-in width="50%"}
+![](images/image-2.png){top="200" left="0" width="400"} <br> [[Scheel et al (2021)](https://doi.org/10.1177/25152459211007467)]{style="font-size: 50%;"}
+:::
+
+::::: 
 ------------------------------------------------------------------------
 
 # Questions? Discussion
