@@ -11,7 +11,6 @@ format:
     slide-number: true
     transition: fade
     background-transition: fade
-editor: visual
 toc: false
 ---
 
@@ -332,7 +331,7 @@ Absolutely! Preregistration doesn’t ban exploration. It just encourages **clar
 ### 2.2 Key Benefits of preregistration {auto-animate="true"}
 
 | Effect | Description | Citation |
-|-----------|-----------|--------------------------------------------------|
+|--------------|--------------|--------------------------------------------|
 | **Transparency** | Public hypotheses & plans | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5) |
 | **Less Bias** | Encourages reporting nulls | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Marsden et al, 2022](https://doi.org/10.1111/add.15819); [Ioannidis et al, 2022](https://doi.org/10.1016/j.mbs.2022.108782); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x) |
 | **Clearer Claims** | Exploratory ≠ Confirmatory | [Toth et al, 2019](https://doi.org/10.5465/AMBPP.2019.17182ABSTRACT); [Dewitte et al, 2021](https://doi.org/10.21428/1192f2f8.52d90db5); [Waldron et al, 2022](https://doi.org/10.1038/s41386-022-01418-x) |
@@ -553,7 +552,7 @@ For this workshop, I created an example:
 ### 3.2 Key benefits
 
 | Effect | Description | Citation |
-|--------------|--------------|--------------------------------------------|
+|----------------|----------------|----------------------------------------|
 | **Reduces Publication Bias** | Acceptance is based on study design, not results | [Chambers & Tzavella, 2021](https://doi.org/10.1038/s41562-021-01193-7); [Soderberg et al, 2021](https://doi.org/10.1038/s41562-021-01142-4); [Liu et al, 2025](https://doi.org/10.1037/amp0001503); [Chin et al, 2021](https://doi.org/10.1016/j.fsisyn.2019.10.005) |
 | **Methodological Rigor** | Early peer review enhances study design, analysis plans | [Soderberg et al, 2021](https://doi.org/10.1038/s41562-021-01142-4); [Cook et al, 2019](https://doi.org/10.1177/0741932521996459); [2025](https://doi.org/10.1177/07319487251317533); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046) |
 | **Transparency and Reproducibility** | Protocols and analysis plans are pre-specified and openly available | [Chambers & Tzavella, 2021](https://doi.org/10.1038/s41562-021-01193-7); [Liu et al, 2025](https://doi.org/10.1037/amp0001503); [Nosek et al, 2014](https://doi.org/10.1027/1864-9335/A000192); [Lakens et al, 2024](https://doi.org/10.1080/2833373x.2024.2376046) |
@@ -730,7 +729,6 @@ You can learn more about the submission process and browse Stage 1 and Stage 2 r
 ### 3.8 effects of Registered Reports
 
 ::::: columns
-
 ::: {.column .fragment .fade-in width="50%"}
 ![](images/image-6.png){top="200" right="50" width="400"} <br> [Source](https://www.fxstreet.com/analysis/eur-chf-has-stopped-going-down-at-month-end-202503270738){style="font-size: 50%;"}
 :::
@@ -738,8 +736,8 @@ You can learn more about the submission process and browse Stage 1 and Stage 2 r
 ::: {.column .fragment .fade-in width="50%"}
 ![](images/image-2.png){top="200" left="0" width="400"} <br> [[Scheel et al (2021)](https://doi.org/10.1177/25152459211007467)]{style="font-size: 50%;"}
 :::
+:::::
 
-::::: 
 ------------------------------------------------------------------------
 
 # Questions? Discussion
